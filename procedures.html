@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+     <title>ExtraordinaryBeauty</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="photos/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="procedures.html">PROCEDURES</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>steps to follow<br> when wearing makeup</h1>
+    </section>
+    <!----- about us content---->
+    <section class="procedures-us">
+        <div class="row">
+            <div class="procedures-col">
+                <h1>Beautiful skin requires commitment not a miracle</h1>
+                <p>Follow the following steps to do your makeup beautifully.</p>
+                <p>1.Start with moisturizer to hydrate your skin.</p>
+                <p>2.Apply your ptimer.<br>Primer helps to keep your makeup on espacially on warm days. </p>
+                <p>3.Then apply your favourite type of foundation.<br> You can apply using foundation brush or your fingers.</p>
+                <p>4.put concealer where you want more coverage.<br> Use a brush to blend in since it gives full coverage makeup look.</p>
+                <p>5.Apply bronzer to add back somecolor to your face. </p>  
+                <p>6.Highlight the high points.</p>
+                <p>7.Define your eyes with eyeliner.</p>
+                <p>8.You can a swipe on mascara to curl your eye lashes.</p>
+                <p>9.Line your lips using lip liner.</p>
+                <p>10.paint on your lipstick and lip gloss</p>
+                <p>11.Then set up your makeup by using your setting powder and spray.</p>
+            </div>
+            <div class="procedures-col">
+                <img src="photos/image1.webp">
+            </div>
+        </div>
+    </section>
+   
+    
+    <!----- Footer ---->
+    
+    <section class="footer">
+        <h4>About</h4>
+        <p>The website only provides you with little information <br> you should know about makeup tips.</p>
+        <div class="icons">
+             <i class="fa fa-facebook"></i>
+             <i class="fa fa-twitter"></i>
+             <i class="fa fa-instagram"></i>
+             <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made  <i class=""> by ExtraordinaryBeauty</i></p>
+    </section>
+    
+ <!------JavaScript for Toggle menu------->   
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+     <title>ExtraordinaryBeauty</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="photos/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="procedures.html">PROCEDURES</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Know more about makeup</h1>
+    </section>
+    <!---------- blog page content ------>
+    <section class="blog-products">
+        
+        <div class="row">
+            <div class="blog-left">
+                <img src="photos/image2.jpg">
+                <h2>Get More Information About makeup</h2>
+                <p>Cosmetics are constituted mixtures of chemical compounds derived from either natural resources, or synthetically created ones.</p>
+                <br>
+                <p> Basically makeup is used to change the way we look and to make us feel more confident about ourselves.</p>
+                <br>
+                <p> Primer is considered as the first amd most important makeup item that can not simply be missed.<br>It is the base of your makeup to get it done rightly.</p>
+                <br>
+                <h2>Makeup rules that you need to know</h2>
+                <p>a) keep the makeup simple</p>
+                <p>b) choose the right type of foundation that matches your skin</p>
+                <p>c) follow a trusted makeup artist</p>
+                <p>d) always do eyes first</p>
+                <p>e) blend in properly</p>
+                <p>f) perfect shade of lipstick</p>
+                
+                
+                <div class="comment-box">
+                    
+                    <h3>Leave a comment if you find this helpful</h3>
+                    
+                    <form class="comment-form">
+                       
+                        <textarea rows="5" placeholder="Your comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>      
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Basic makeup styles</h3>
+                <div>
+                    <span>HD makeup</span>
+                    
+                </div>
+                <div>
+                    <span>Matte makeup</span>
+                    
+                </div>
+                <div>
+                    <span>Dewy Makeup</span>
+                    
+                </div>
+                <div>
+                    <span>Airbrush Makeup</span>
+                    
+                </div>
+                <div>
+                    <span>Editorial makeup</span>
+                    
+                </div>
+                <div>
+                    <span>Celebrity makeup</span>
+                    
+                </div>
+                <div>
+                    <span>Permanent makeup</span>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+     
+    <!----- Footer ---->
+    
+    <section class="footer">
+        <h4>About</h4>
+        <p>The website only provides you with little information<br> you should know more about makeup.</p>
+        <div class="icons">
+             <i class="fa fa-facebook"></i>
+             <i class="fa fa-twitter"></i>
+             <i class="fa fa-instagram"></i>
+             <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made  <i class=""> by ExtraordinaryBeauty </i></p>
+    </section>
+    
+ <!------JavaScript for Toggle menu------->   
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    </script>
+    
+</body>
+</html>

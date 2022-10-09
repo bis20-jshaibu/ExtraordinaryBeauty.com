@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+     <title>ExtraordinaryBeauty</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="photos/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="procedures.html">PROCEDURES</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Makeup products</h1>
+    </section>
+    <!----- Course ---->
+    
+    <!---------- facilities----->
+    <section class="facilities">
+        <h1>List of basic makeup products</h1>
+      
+        
+        <div class="row">
+            
+              <div class="facilities-col">
+                <img src="photos/skincare2.jpg">
+                <h3>skincare</h3>
+            </div>   
+            <div class="facilities-col">
+                <img src="photos/primer.jpg">
+                <h3>primer</h3>
+                
+            </div>
+             
+            <div class="facilities-col">
+                <img src="photos/powder.jpg">
+                <h3>powder</h3>
+               
+            </div>
+        
+         
+            <div class="facilities-col">
+                <img src="photos/concealer.jpg">
+                <h3>concealer</h3>
+                
+            </div>
+            <div class="facilities-col">
+                <img src="photos/bronzer.jpg">
+                <h3>Bronzer</h3>
+            </div>
+        </div>
+         <div class="row">
+            <div class="facilities-col">
+                <img src="photos/foundation2.jpg">
+                <h3>Foundation</h3>
+            </div>
+        
+         <div class="row">
+            <div class="facilities-col">
+                <img src="photos/contour2.jfif">
+                <h3> Contour</h3>
+            </div>
+            <br>
+            <div class="facilities-col">
+                <img src="photos/highlighter.jpg">
+                <h3>Highlighter</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="photos/mascara.jfif">
+                <h3>Mascara</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="photos/lip%20gloss.jpg">
+                <h3>lip gloss</h3>
+            </div>
+            
+            <div class="facilities-col">
+                <img src="photos/setting spray.jpg"s>
+                <h3> setting spray</h3>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!----- Footer ---->
+    
+    <section class="footer">
+        <h4>About</h4>
+        <p>The website only provides you with little information<br> You should know about Makeup tips.</p>
+        <div class="icons">
+             <i class="fa fa-facebook"></i>
+             <i class="fa fa-twitter"></i>
+             <i class="fa fa-instagram"></i>
+             <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made  <i class=""> by ExtraordinaryBeauty</i></p>
+    </section>
+    
+ <!------JavaScript for Toggle menu------->   
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    </script>
+    
+</body>
+</html>
